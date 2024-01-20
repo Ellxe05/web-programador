@@ -20,3 +20,9 @@ aside {
     top: 0;
     right: 0;
 }
+
+
+div > figure > img {
+    width: 370px;
+    border-radius: 50%;
+}
