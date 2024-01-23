@@ -27,6 +27,13 @@
         padding-right: 50%;
         padding-left: 28%;
     }
+
+    #itens {
+        display: block;
+    }
+    #itens > aside > h3 > ol > a > li {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 992px) {
