@@ -11,6 +11,7 @@
 
     footer {
         background-color: #202121;
+        height: 295px;
         padding: 40px;
         text-align: center;
     }
@@ -18,7 +19,7 @@
     .foto {
         height:220px;
         width: 195px;
-        border-radius: 20px;
+        border-radius: 50%;
     }
     .descricao{
         color: white;
@@ -43,9 +44,60 @@
 
 @media screen and (min-width: 992px) {
     .container {
+        max-width: none;
         font-size: 17px
     }
     .container-inscricao {
-        float: right;
+        max-width: 500px;
     }
+    .container-inscricao > h2, p {
+        text-align: center;
+    }
+
+    section {
+        background-image: url(../imagens/workshop.jpg);
+        background-size: cover;
+        background-position: 55% 32%;
+    }
+  
+    .foto {
+        height:290px;
+        width: 255px;
+        border-radius: 50%;
+    }
+    .descricao{
+        color: white;
+        text-align: justify;
+        display: inline-block;
+        margin-left: 25px;
+    }
+    .descricao p , .descricao h2 {
+        width: 390px;
+    }
+    .descricao p {
+        position: relative;
+        bottom: 50px;
+    }
+    .descricao h2 {
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        right: 19px;
+        bottom: 55px;
+    }
+
+    input, select, .botao{
+        width: 320px;
+        position: relative;
+        left: 16%;
+        right: -50%;
+    }
+    select, .botao {
+        width: 325px;
+    }
+
+    footer {
+        height: 417px;
+    }
+
 }
