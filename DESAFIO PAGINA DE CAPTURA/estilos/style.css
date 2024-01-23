@@ -48,11 +48,13 @@ select {
 }
 .botao {
     background-color: rgb(255, 174, 0);
+    color: white;
+    text-shadow: 2px 2px 2px black;
     height: 35px;
     width: 233px;
     border: .1px solid black;
     cursor: pointer;
-
+    font-weight: bold;
 }
 
 aside {
@@ -61,5 +63,9 @@ aside {
     max-width: 1000px;
     margin: auto;
 }
+aside > h2, p {
+    
+}
+
 
 
