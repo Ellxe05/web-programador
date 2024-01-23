@@ -62,4 +62,20 @@
     .ultimo-paragrafo {
         padding-bottom: 25px;
     }
+
+    #menu {
+        display: none;
+    }
+    #itens {
+        display: block;
+        height: 1585px;
+        width: 350px;
+        z-index: 1;
+        position: absolute;
+        top: 10;
+        left: 10;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    
 }
