@@ -7,13 +7,13 @@
     margin: 0px;
     padding: 0px;
 }
-header > h1 {
-    font-family: "Silkscreen", sans-serif;
+body {
+    background-color: #f8f0fb;
 }
 h2, h3 {
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
-aside {
+#barra {
     width: 15%;
     height: 100%;
     position: fixed;
@@ -21,8 +21,82 @@ aside {
     right: 0;
 }
 
+header {
+    background-color: #ee8667;
+}
+header > h1 {
+    font-family: "Silkscreen", sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    font-size: 40px;
+}
+header > p {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
 
-div > figure > img {
-    width: 370px;
-    border-radius: 50%;
+
+div {
+    background-color: #c2a83e;
+    display: none;
+}
+div > aside > ol > a {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0.329);
+    transition: .5s;
+}
+div > aside > ol > a:hover {
+    background-color: rgb(255, 255, 255);
+    transition: .3s;
+}  
+div > aside > h3 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#menu {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+    float: left;
+}
+#menu:hover {
+    color: #000000;
+}
+
+nav {
+    background-color: #104911;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 45px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav > a:hover {
+    background-color: #c2a83e;
+    color: #000000;
+    margin:5px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+
+footer {
+    background-color: #104911;
 }
