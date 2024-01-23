@@ -34,6 +34,27 @@ body {
     padding-bottom: 10px;
 }
 
+input {
+    height: 30px;
+    width: 230px;
+    border: 1px 1px solid black;
+}
+input::placeholder {
+    padding: 10px;
+}
+select {
+    height: 30px;
+    width: 234px;
+}
+.botao {
+    background-color: rgb(255, 174, 0);
+    height: 35px;
+    width: 233px;
+    border: .1px solid black;
+    cursor: pointer;
+
+}
+
 aside {
     background-color: rgb(99, 99, 99);
     color: white;
