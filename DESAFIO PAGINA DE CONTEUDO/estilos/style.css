@@ -11,7 +11,9 @@ body {
     background-color: #f8f0fb;
 }
 h2, h3 {
-    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-family: "Silkscreen", sans-serif;
+    color: #c2a83e;
+    text-shadow: 2px 2px 2px black;
 }
 #barra {
     width: 15%;
@@ -29,14 +31,15 @@ header > h1 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px black;
-    padding: 20px;
+    padding-top: 20px;
     font-size: 40px;
 }
 header > p {
+    font-family: "Silkscreen", sans-serif;
     text-align: center;
     color: white;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -50,6 +53,7 @@ div > aside > ol > a {
     display: block;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
     color: rgb(0, 0, 0);
     border-top: 1px solid rgba(255, 255, 255, 0.329);
     transition: .5s;
@@ -67,18 +71,21 @@ div > aside > h3 {
     color: white;
     display: block;
     text-align: center;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
     float: left;
 }
 #menu:hover {
-    color: #000000;
+    color: #c2a83e;
 }
-
+ol > a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 nav {
     background-color: #104911;
     text-align: center;
     padding: 10px;
-    word-spacing: 45px;
+    word-spacing: 47px;
 }
 nav > a {
     color: white;
@@ -95,8 +102,44 @@ nav > a:hover {
     transition: .3s;
 }
 
+main > article > h2,p {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+main > article > p {
+    text-indent: 10px;
+    margin: auto;
+}
 
+figure > img {
+    width: 350px;
+    border-radius: 25%;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 70px;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+
+.ultimo-paragrafo {
+    padding-bottom: 5px;
+}
 
 footer {
     background-color: #104911;
+    color: white;
 }
+footer > p {
+    font-family: "Silkscreen", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+
