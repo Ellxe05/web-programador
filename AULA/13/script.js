@@ -9,3 +9,9 @@ function hideH1() {
     div.innerText = 'Você clicou!!'
     div.style.backgroundColor = 'darkgreen'
 }
+function onOver(elementos){
+    elementos.style.backgroundColor = 'pink'
+} 
+function onOut(elementos){
+    elementos.style.backgroundColor = 'darkred'
+}

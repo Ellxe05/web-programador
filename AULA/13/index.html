@@ -16,11 +16,19 @@
             border-radius: 10px;
             color: aliceblue;
         }
+        p {
+            font-size: 35px;
+            font-style: oblique;
+        }
     </style>
 </head>
 <body>
     <h1>Clique no bloco abaixo!</h1>
-    <div onclick="hideH1()">Clica aqui!</div>
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="hideH1()">Clica aqui!</div>
+
+    <p onmouseover="onOver(this)" onmouseout="onOut(this)">
+        <strong>Exemplo</strong>
+    </p>
 
     <script src="script.js"></script>
 </body>
