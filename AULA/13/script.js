@@ -7,4 +7,5 @@ function hideH1() {
     let div = document.getElementsByTagName('div')[0]
     h1.style.display = 'none'
     div.innerText = 'Você clicou!!'
+    div.style.backgroundColor = 'darkgreen'
 }
