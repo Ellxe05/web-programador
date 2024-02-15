@@ -1,9 +1,16 @@
-function mudarCor() {
+var numero = 0
+var interval 
+
+function atualizarTexto() {
     let change = document.getElementsByTagName('h1')[0]
-    change.style.color = 'green'
+    change.innerHTML += '' + numero + '-'
+    numero++
 }
-function mudarTexto() {
-    let change = document.getElementsByTagName('h1')[0]
-    change.innerHTML = 'Nova cor!'
-    setTimeout(mudarCor, 1000)
+
+function iniciar() {
+   interval = setInterval(atualizarTexto, 1000)
+}
+
+function parar() {
+    clearInterval(interval)
 }
