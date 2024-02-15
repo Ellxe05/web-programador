@@ -2,14 +2,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-color: #363335;
+        background-color: #f0f7f4;
         overflow-x: hidden;
     }
     main {
         width: 750px;
-        background-color: #eefcf5;
+        background-color: #fdfdfd;
         margin: auto;
         position: relative;
+        box-shadow: 0px 5px 5px black;
     }
     main > article > h2 {
         font-size: 32px;
@@ -38,13 +39,14 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background-color: #363335;
+        background-color: #f0f7f4;
     }
     main {
         width: 980px;
-        background-color: #eefcf5;
+        background-color: #fdfdfd;
         margin: auto;
         position: relative;
+        box-shadow: 0px 5px 5px black;
     }
     p {
         text-align: justify;

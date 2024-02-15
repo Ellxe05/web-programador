@@ -28,6 +28,7 @@ h2, h3 {
 
 header {
     background-color: #231123;
+    background-image: linear-gradient(to bottom, #ac0042, #4d031f);
 }
 header > h1 {
     font-family: "Silkscreen", sans-serif;
@@ -48,7 +49,7 @@ header > p {
 
 
 div {
-    background-color: #964b70;
+    background-color: #1d1a05;
     display: none;
 }
 div > aside > ol > a {
@@ -89,7 +90,7 @@ ol > a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav {
-    background-color: #964b70;
+    background-color: #1d1a05;
     text-align: center;
     padding: 10px;
     word-spacing: 47px;
@@ -109,6 +110,10 @@ nav > a:hover {
     border-radius: 5px;
     text-shadow: 2px 2px 2px black;
     transition: .3s;
+}
+
+main {
+    background-color: #fdfdfd;
 }
 
 main > article > h2,p {
@@ -141,6 +146,7 @@ figcaption {
 
 footer {
     background-color: #964b70;
+    background-color: #1d1a05;
     color: white;
 }
 footer > p {
