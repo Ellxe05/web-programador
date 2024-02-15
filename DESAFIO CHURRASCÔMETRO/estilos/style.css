@@ -28,4 +28,5 @@ input {
 .botao {
     width: 100px;
     font-weight: bold;
+    cursor: pointer;
 }
