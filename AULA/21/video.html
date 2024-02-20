@@ -26,21 +26,24 @@
             padding: 10px;
             top: 100%;
             transform: translateY(-120%);
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <video class="video" src="soaked.mp4"></video>
+        <video id="video1" class="video" src="soaked.mp4"></video>
 
         <div class="controle">
-            <img class="btn" src="back.png" alt="voltar">
-            <img class="btn" src="foward.png" alt="adiantar">
-            <img class="btn" src="increase.png" alt="acelerar">
-            <img class="btn" src="decrease.png" alt="desacelerar">
-            <img class="btn" src="play.png" alt="começar">
-            <img class="btn" src="stop.png" alt="parar">
+            <img class="btn" onclick="voltar()" src="back.png" alt="voltar">
+            <img class="btn" onclick="avancar()" src="foward.png" alt="avançar">
+            <img class="btn" onclick="desacelerar()" src="decrease.png" alt="desacelerar">
+            <img class="btn" onclick="acelerar()" src="increase.png" alt="acelerar">
+            <img class="btn" onclick="comecar()" src="play.png" alt="começar">
+            <img class="btn" onclick="parar()" src="stop.png" alt="parar">
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
