@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@keyframes mudaCor {
+    from {background-color: chartreuse;}
+    to {background-color: tan;}
+}
+
+.caixa {
+    width: 450px;
+    height: 450px;
+    border-style: solid;
+    animation-name: mudaCor;
+    animation-duration: 5s;
+}
