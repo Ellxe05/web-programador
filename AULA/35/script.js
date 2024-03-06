@@ -9,12 +9,8 @@ let alunos = [
     novoAluno('Janaina', 42)
 ]
 
-function menorQue30(aluno) {
-    return aluno.idade < 30
+function alunoDaquiA5Anos(aluno) {
+    alunoDaquiA5Anos.idade += 5
+    return aluno
 }
-function maiorQue30(aluno) {
-    return aluno.idade > 30
-}
-
-console.log(alunos.filter(maiorQue30))
-console.log(alunos.filter(menorQue30))
+console.log(alunos.map(alunoDaquiA5Anos))
