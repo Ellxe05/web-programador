@@ -19,6 +19,13 @@ function inserirUsuario(nome) {
 function listarUsuarios() {
     console.log(usuarios)
 }
-inserirUsuario('Bruna').then(listarUsuarios).catch((error) => {
+
+async function executar() {
+    await inserirUsuario('Maria')
+    listarUsuarios()
+}
+executar();
+
+/* inserirUsuario('Bruna').then(listarUsuarios).catch((error) => {
     console.log(error)
-})
+}) */
